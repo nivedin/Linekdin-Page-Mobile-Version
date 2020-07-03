@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: rgb(233, 233, 233);
+}
+nav{
+    position: fixed;
+    min-height: 8vh;
+    width: 100vw;
+    background-color: rgb(35, 122, 180);
+
+}
+
+nav .navContainer{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navContainer .profileImage{
+    height: 35px;
+}
+.navContainer .profileImage img{
+    height: 100%;
+    border-radius: 50%;
+}
+.navContainer .searchBar{
+    margin-left: 10px;
+    height: 35px;
+    width: 85vw;
+    border-radius: 50%;
+}
+.navContainer .searchBar input{
+    width: 100%;
+    height: 100%;
+   
+}
+.navContainer .chatIcon {
+    margin-left: 10px;
+   
+}
+.navContainer .chatIcon .Navchat{
+    color: white;
+    font-size: 30px;
+   
+}
+
+main .mainContainer{
+    width: 100vw;
+    align-items: center;
+    padding: 60px 0;
+}
+main .post1{
+    border: 1px solid rgb(218, 218, 218);
+    background: white;
+    padding: 10px 10px;
+}
+main .post1 .post1Head{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+main .post2 {
+   margin-top: 20px;
+   padding: 10px 10px;
+   border: 1px solid rgb(218, 218, 218);
+   background-color: white;
+}
+
+.postHead{
+    display: flex;
+    padding: 10px 0;
+}
+
+.postHead .postProIcon{
+    height: 45px;
+}
+.postHead .postProIcon img{
+    height: 100%;
+}
+.postHead .postProDesc{
+   padding-left: 20px;
+   font-size: 13px;
+   color: rgb(65, 65, 65);
+ }
+
+ .postDescription{
+     padding: 10px 10px;
+ }
+
+ .postMainImage {
+     height: 300px;
+     width: 100vw;
+ }
+ .postMainImage img{
+     height: 100%;
+     width: 90%;
+ }
+ .postLkCO{
+     display: flex;
+     justify-content: space-between;
+ }
+ .postLkCO .postComntNum{
+    margin: 10px;
+    color: rgb(80, 80, 80);
+    font-size: 14px;
+ }
+ .postLCHicons{
+    margin: 10px;
+    font-size: 13px;
+    color: rgb(68, 68, 68);
+ }
+ .postLCHicons .postIco1{
+     font-size: 18px;
+     color: blue;
+ }
+ .postLCHicons .postIco2{
+     font-size: 18px;
+     color: green;
+     margin-left: 5px;
+ }
+ .postLCHicons .postIco3{
+     font-size: 18px;
+     color: red;
+     margin-left: 5px;
+ }
+ .postLCSIcos{
+    display: flex;
+    justify-content: space-around;
+ }
+ .postLCSIcos .LCSIco1{
+    text-align: center;
+ }
+ .postLCSIcos img{
+     height: 20px;
+ }
+
+.menu{
+    border-top: 1px solid rgb(202, 202, 202);
+    height: 8vh;
+    position: fixed;
+    z-index: 99;
+    top: 92%;
+    left: 0;
+    width: 100vw;
+    background: rgb(255, 255, 255);
+    
+}
+.menu .menuIcons{
+    padding: 10px;
+    
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    cursor: pointer;
+
+}
